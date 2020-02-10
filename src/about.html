@@ -1,0 +1,34 @@
+---
+layout: default
+title: about
+scripts: 
+  - assets/js/bg-tracker.js
+---
+
+{% include nav.html %}
+
+{% capture content %}
+  <h1>Cooper Scarbrough</h1>
+  <h3>Founder &amp; Chief Operating Officer</h3>
+
+  <p>
+    Cooper Scarbrough, COO and Co-Founder of Terraforma, brings engineering-based problem solving to Agriculture. He develops Terraforma’s project design and protocols for implementation and works closely with Terraforma’s CSO to refine processes and algorithms to perfection. 
+  </p>
+  <p>
+    For the last 5 years, Scarbrough has been improving farm productivity through the implementation of biological systems and continues to push the technology towards more precision and automation.
+  </p>
+{% endcapture %}
+{% include components/bio-box.html stretch="right" img-position="left" img="/assets/img/cooper.jpg" content=content %}
+
+{% capture content %}
+  <h1>Miles Sorel</h1>
+  <h3>Founder &amp; Chief Science Officer</h3>
+
+  <p>
+    Miles Sorel, CSO and Co-Founder of Terraforma, spearheads Terraforma’s research and development activities.
+  </p>
+  <p>
+    Collaborating closely with thought-leaders and leading laboratories, Sorel is working to unveil the curtain behind soil’s biological functionality. He is frequently traveling across the globe, refining data from all different growing environments to advance Terraforma’s technology.
+  </p>
+{% endcapture %}
+{% include components/bio-box.html stretch="left" img-position="right" img="/assets/img/miles.jpg" content=content classes="margin-vertical-2000" %}

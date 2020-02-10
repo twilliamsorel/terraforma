@@ -1,0 +1,57 @@
+// colors
+$orange-100: #cf604a;
+$orange-200: #ed6047;
+$green-100: #78a598;
+$green-200: #5ea89a;
+$blue-100: #aac7e7;
+$blue-200: #a0c9e4;
+$gray-100: #474747;
+$gray-200: #b5b5b5;
+$white-100: #fdfdfd;
+$black-100: #333;
+
+// spacing
+$spacing-base: 5px;
+$spacing-200: $spacing-base * 2;
+$spacing-300: $spacing-base * 3;
+$spacing-400: $spacing-base * 4;
+$spacing-500: $spacing-base * 5;
+$spacing-600: $spacing-base * 6;
+$spacing-800: $spacing-base * 8;
+$spacing-900: $spacing-base * 9;
+$spacing-1000: $spacing-base * 10;
+$spacing-1200: $spacing-base * 12;
+$spacing-1500: $spacing-base * 15;
+$spacing-2000: $spacing-base * 20;
+
+// bespoke sizes
+$nav-height-full: 136px;
+
+// z-indexes
+$z-index-mobile-nav: 3;
+$z-index-nav: 2;
+$z-index-base: 1;
+
+// fonts
+$font-family-base: sans-serif;
+$font-size-small: 14px;
+$font-size-base: 16px;
+$font-size-100: 18px;
+$font-size-200: 20px;
+$font-size-300: 24px;
+$font-size-400: 30px;
+$font-size-500: 40px;
+
+// breakpoints
+$screen-micro: 350px;
+$screen-xs: 577px;
+$screen-sm: 768px;
+$screen-sm-max: $screen-sm - 1px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+// misc styling
+$box-shadow-basic: 0px 0px $spacing-200 $gray-100;
+$box-shadow-light: 0px 0px $spacing-base $gray-100;
+$box-shadow-ultralight: 0px 0px 2px $gray-100;
+$box-shadow-diffuse: 0px 0px $spacing-base $gray-200;

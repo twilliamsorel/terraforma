@@ -1,0 +1,34 @@
+h1, h2, h3 {
+  font-family: 'aristotelica-extralight', arial, sans-serif;
+  letter-spacing: 1px
+}
+
+h1 {
+  font-size: $font-size-400;
+
+  @media screen and (min-width: $screen-sm) {
+    font-size: $font-size-500;    
+  }
+}
+
+p {
+  font-family: fira-sans, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.text-white.dashed {
+  border-bottom: 2px dashed white;
+  display: inline-block;
+  padding: $spacing-400 $spacing-1200 $spacing-200;
+}

@@ -1,0 +1,27 @@
+<div class="component bio-box {{ include.classes }}">
+  <div class="container">
+    <div class="row margin-top-1000">
+      <div class="bg-white" data-stretch="{{ include.stretch }}"></div>
+      <div class="col-12 bg-white content">
+        <div class="row margin-vertical-1000">
+          <div class="col-md-4 col-lg-3 offset-lg-1 {% if include.img-position == 'left' %} offset-md-1 {% else %} order-md-last {% endif %}">
+            <div class="img-container margin-bottom-600" style="background: url('{{ include.img }}') no-repeat center; background-size: cover;"></div>
+          </div>
+          <div class="col-md-6 {% if include.img-position == 'left' %} offset-lg-1 {% else %} offset-md-1 {% endif %}">
+            
+            {{ include.content }}
+            
+            <p>
+              <span class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </span>
+              <span class="social-icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

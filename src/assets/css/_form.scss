@@ -1,0 +1,22 @@
+form {
+  input[type="text"], textarea {
+    width: 100%;
+    border: 1px solid $gray-200;
+    padding: $spacing-200 $spacing-300;
+
+    &.margin-top-400-responsive {
+      @media screen and (max-width: $screen-sm-max) {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  textarea {
+    min-height: 85px;
+  }
+
+  .col, .col-md-6, .col-md-12 {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}

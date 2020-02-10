@@ -1,0 +1,43 @@
+---
+---
+@import "variables";
+@import "fonts";
+@import "type";
+@import "spacing";
+@import "button";
+@import "nav";
+@import "form";
+@import "footer";
+
+// PAGES
+@import "pages/contact";
+@import "pages/about";
+
+// COMPONENTS
+@import "components/bio-box";
+
+body {
+  color: $black-100;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 53px);
+}
+
+.social-icon {
+  font-size: $font-size-200;
+  margin-right: $spacing-200;
+  background: $gray-100;
+  color: $white-100;
+  padding: 2px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  width: $spacing-600;
+  height: $spacing-600;
+
+  i {
+    display: inline-block;
+    width: 100%;
+  }
+}

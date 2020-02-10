@@ -1,0 +1,22 @@
+.component.bio-box {
+  .img-container {
+    width: 100%;
+    height: 250px;
+  }
+
+  .row {
+    position: relative;
+  }
+
+  .content {
+    min-height: 470px;
+  }
+
+  [data-stretch] {
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    height: 100%;
+    box-shadow: $box-shadow-diffuse;
+  }
+}

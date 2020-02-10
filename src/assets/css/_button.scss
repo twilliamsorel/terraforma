@@ -1,0 +1,13 @@
+.btn {
+  background: $orange-200;
+  font-size: inherit;
+  color: $white-100;
+  padding: $spacing-base $spacing-300 0;
+  box-shadow: $box-shadow-ultralight;
+  font-family: 'aristotelica-light', arial, sans-serif;
+  font-size: $font-size-300;
+
+  &:hover {
+    color: $black-100;
+  }
+}
