@@ -6,13 +6,14 @@ nav {
 	background: $green-100;
   padding: $spacing-600 $spacing-200;
   border-bottom: $spacing-400 solid $orange-100;
-  box-shadow: $box-shadow-light;
+  box-shadow: $box-shadow-nav;
   position: relative;
   z-index: $z-index-nav;
   transition: padding 400ms, border-bottom 400ms;
 
   &.fixed {
     position: fixed;
+    top: 0;
     width: 100%;
     padding: $spacing-200;
     border-bottom: $spacing-200 solid $orange-100;

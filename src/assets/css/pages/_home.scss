@@ -1,0 +1,35 @@
+body.home {
+  width: 100%;
+  overflow-x: hidden;
+
+  .hero {
+    position: relative;
+    text-align: center;
+    height: 350px;
+    background: url('/assets/img/backgrounds/background-3.jpg') no-repeat fixed;
+    background-position: center 34%;
+    
+
+    img {
+      max-width: 300px;
+    }
+
+    .slope {
+      position: absolute;
+      bottom: -1px;
+      width: 100%;
+    }
+
+    @media screen and (min-width: $screen-xs) {
+      height: 100vh;
+      min-height: 500px;
+
+      img {
+        max-width: 350px;
+      }
+    }
+    @media screen and (min-width: $screen-md) {
+      text-align: left;
+    }
+  }
+}
