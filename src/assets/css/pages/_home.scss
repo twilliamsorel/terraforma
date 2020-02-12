@@ -2,34 +2,23 @@ body.home {
   width: 100%;
   overflow-x: hidden;
 
-  .hero {
-    position: relative;
-    text-align: center;
-    height: 350px;
-    background: url('/assets/img/backgrounds/background-3.jpg') no-repeat fixed;
-    background-position: center 34%;
-    
+  @import 'home/hero';
 
-    img {
-      max-width: 300px;
+  .summary {
+    margin-top: -50px;
+    padding: 100px 0 50px;
+    background: url('/assets/img/backgrounds/background-1.jpg') no-repeat center center fixed;
+
+    @media screen and (min-width: $screen-sm) {
+      padding: 150px 0 100px;
     }
 
-    .slope {
-      position: absolute;
-      bottom: -1px;
-      width: 100%;
-    }
-
-    @media screen and (min-width: $screen-xs) {
-      height: 100vh;
-      min-height: 500px;
-
-      img {
-        max-width: 350px;
-      }
-    }
     @media screen and (min-width: $screen-md) {
-      text-align: left;
+      padding: 200px 0 150px;
+    }
+    .black-panel {
+      padding: $spacing-1000 $spacing-600;
+      background: rgba(0, 0, 0, .5);
     }
   }
 }

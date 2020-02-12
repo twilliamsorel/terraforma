@@ -3,19 +3,43 @@ layout: default
 title: home
 ---
 
-<div class="hero">
+<section class="hero">
+  <div class="screen-white"></div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-10 offset-md-1">
         <img src="/assets/img/logo-original.svg" class="margin-top-800 margin-bottom-800">
+        <div class="scroll-section d-none d-sm-block">
+          <img class="scroll-icon" src="/assets/img/scroll-icon.png" title="scroll down for more">
+          {% include components/molecules/circle-line.html %}
+        </div>
       </div>
       
       <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-left-1.svg"></object>
       <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-right-1.svg"></object>
     </div>
   </div>
-</div>
+</section>
 
 {% include nav.html %}
 
-<div style="height: 1000px;"></div>
+<section class="summary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="black-panel text-white margin-bottom-200">
+          <h1 class="margin-bottom-600">accessing soil's potential</h1>
+          <h3>increase yields through our customized biological programs</h3>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3">
+        <a class="btn tab">creating value</a>
+        <a class="btn tab green">our method</a>
+        <a class="btn tab blue">sustainability</a>
+      </div>
+      <div class="d-md-none d-lg-block col-lg-1">
+        {% include components/molecules/circle-line.html %}
+      </div>
+    </div>
+  </div>
+</section>

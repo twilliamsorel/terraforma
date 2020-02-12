@@ -11,6 +11,14 @@ h1 {
   }
 }
 
+h3 {
+  font-size: $font-size-300;
+
+  @media screen and (min-width: $screen-sm) {
+    font-size: $font-size-400;    
+  }
+}
+
 p {
   font-family: fira-sans, sans-serif;
   font-style: normal;

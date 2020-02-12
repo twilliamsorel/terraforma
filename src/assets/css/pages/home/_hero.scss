@@ -1,0 +1,58 @@
+.hero {
+  position: relative;
+  text-align: center;
+  height: 350px;
+  background: url('/assets/img/backgrounds/background-3.jpg') no-repeat fixed;
+  background-position: center 34%;
+
+  .screen-white {
+    opacity: 0;
+    transition: opacity 600ms;
+
+    @media screen and (min-width: $screen-xs) {
+      opacity: .35;
+    }
+    @media screen and (min-width: $screen-md) {
+      opacity: 0;
+    }
+  }
+  
+
+  img {
+    max-width: 300px;
+  }
+
+  .scroll-section {
+    @media screen and (min-width: $screen-md) {
+      position: absolute;
+      right: 0;
+      top: $spacing-600;
+    }
+
+    .scroll-icon {
+      border: 2px solid $black-100;
+      border-radius: 100%;
+      width: 80px;
+      padding: 10px;
+      margin-bottom: $spacing-300;
+    }
+  }
+
+  .slope {
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+  }
+
+  @media screen and (min-width: $screen-xs) {
+    height: 100vh;
+    min-height: 500px;
+
+    img {
+      max-width: 350px;
+    }
+  }
+  @media screen and (min-width: $screen-md) {
+    text-align: left;
+  }
+}

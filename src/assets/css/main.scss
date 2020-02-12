@@ -17,8 +17,19 @@
 // COMPONENTS
 @import "components/bio-box";
 
+// MOLECULES
+@import "components/molecules/circle-line";
+
 body {
   color: $black-100;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 .content-wrapper {
@@ -41,4 +52,13 @@ body {
     display: inline-block;
     width: 100%;
   }
+}
+
+.screen-white {
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: .4;
+  position: absolute;
+  z-index: 0;
 }

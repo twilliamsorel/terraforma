@@ -10,4 +10,21 @@
   &:hover {
     color: $black-100;
   }
+
+  &.tab {
+    width: 100%;
+    color: $white-100;
+    text-align: left;
+    background: $orange-100;
+    margin-bottom: $spacing-200;
+    border-radius: 2px;
+    padding: $spacing-200 $spacing-300 $spacing-base;
+
+    &.green {
+      background: $green-100;
+    }
+    &.blue {
+      background: $blue-100;
+    }
+  }
 }
