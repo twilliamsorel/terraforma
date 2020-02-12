@@ -24,6 +24,10 @@ body {
   color: $black-100;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
 img {
   -webkit-user-drag: none;
   -khtml-user-drag: none;
