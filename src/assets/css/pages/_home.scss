@@ -7,7 +7,8 @@ body.home {
   .slope {
     position: absolute;
     bottom: -1px;
-    width: 102%;
+    width: calc(100% + 6px);
+    left: -3px;
   }
 
   .section-title {
