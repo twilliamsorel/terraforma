@@ -4,21 +4,69 @@ body.home {
 
   @import 'home/hero';
 
+  .slope {
+    position: absolute;
+    bottom: -1px;
+    width: 102%;
+  }
+
+  .section-title {
+    text-align: center;
+
+    h3 {
+      border-bottom: 2px dashed $black-100;
+      padding-bottom: $spacing-base;
+      display: inline-block;
+
+      @media screen and (min-width: $screen-sm) {
+        display: block;
+      }
+    }
+  }
+
+  .section-anchor {
+    margin-top: -150px;
+    position: absolute;
+  }
+
   .summary {
+    position: relative;
     margin-top: -50px;
-    padding: 100px 0 50px;
+    padding: 100px 0 140px;
     background: url('/assets/img/backgrounds/background-1.jpg') no-repeat center center fixed;
 
     @media screen and (min-width: $screen-sm) {
-      padding: 150px 0 100px;
+      padding: 150px 0 190px;
     }
 
     @media screen and (min-width: $screen-md) {
-      padding: 200px 0 150px;
+      padding: 200px 0 240px;
     }
+    
     .black-panel {
       padding: $spacing-1000 $spacing-600;
       background: rgba(0, 0, 0, .5);
+    }
+  }
+
+  .creating-value {
+    position: relative;
+    padding: 0 0 250px 0;
+    background: url('/assets/img/backgrounds/background-4.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    .section-title {
+      h3 {
+        margin-bottom: $spacing-600;
+
+        @media screen and (min-width: $screen-sm) {
+          margin-bottom: $spacing-1000;
+        }
+      }
+
+      @media screen and (min-width: $screen-sm) {
+        text-align: right;
+      }
     }
   }
 }

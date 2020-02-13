@@ -2,46 +2,73 @@
 layout: default
 title: home
 ---
-<scroll-container>
-  <section class="hero">
-    <div class="screen-white"></div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-10 offset-md-1">
-          <img src="/assets/img/logo-original.svg" class="margin-top-800 margin-bottom-800">
-          <div class="scroll-section d-none d-sm-block">
-            <a href="#summary"><img class="scroll-icon" src="/assets/img/scroll-icon.png" title="scroll down for more"></a>
-            {% include components/molecules/circle-line.html %}
-          </div>
-        </div>
-        
-        <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-left-1.svg"></object>
-        <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-right-1.svg"></object>
-      </div>
-    </div>
-  </section>
 
-  <a id="summary"></a>
-  {% include nav.html %}
-
-  <section class="summary">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="black-panel text-white margin-bottom-200">
-            <h1 class="margin-bottom-600">accessing soil's potential</h1>
-            <h3>increase yields through our customized biological programs</h3>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-3">
-          <a class="btn tab">creating value</a>
-          <a class="btn tab green">our method</a>
-          <a class="btn tab blue">sustainability</a>
-        </div>
-        <div class="d-md-none d-lg-block col-lg-1">
+<section class="hero">
+  <div class="screen-white"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <img src="/assets/img/logo-original.svg" class="margin-top-800 margin-bottom-800">
+        <div class="scroll-section d-none d-sm-block">
+          <a href="#summary"><img class="scroll-icon" src="/assets/img/scroll-icon.png" title="scroll down for more"></a>
           {% include components/molecules/circle-line.html %}
         </div>
       </div>
+      
+      <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-left-1.svg"></object>
+      <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-right-1.svg"></object>
     </div>
-  </section>
-</scroll-container>
+  </div>
+</section>
+
+<a id="summary"></a>
+{% include nav.html %}
+
+<section class="summary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="black-panel text-white margin-bottom-200">
+          <h1 class="margin-bottom-600">accessing soil's potential</h1>
+          <h3>increase yields through our customized biological programs</h3>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-3">
+        <a href="#creating-value" class="btn tab">creating value</a>
+        <a class="btn tab green">our method</a>
+        <a class="btn tab blue">sustainability</a>
+      </div>
+      <div class="d-md-none d-lg-block col-lg-1">
+        {% include components/molecules/circle-line.html %}
+      </div>
+    </div>
+  </div>
+
+  <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-right-2.svg"></object>
+  <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-left-2.svg"></object>
+</section>
+<a id="creating-value" class="section-anchor"></a>
+<section class="creating-value">
+  {% include components/molecules/section-header.html title="creating value" %}
+  <div class="bg-white">
+    <div class="container">
+      <div class="row padding-top-1000">
+        <div class="col-md-6 col-lg-5">
+          <div class="section-title">
+            <h3>optimize your profit</h3>
+            <a href="" class="btn small d-none d-md-inline-block">learn more</a>
+          </div>
+        </div>
+        <div class="col-md-6 offset-lg-1">
+          <ul class="checkmark">
+            <li>by improving soil health, we reduce the use of costly inputs</li>
+            <li>our enhanced nutrient pathways lead to increased yields</li>
+          </ul>
+          <div class="text-center">
+            <a href="" class="btn small d-md-none margin-bottom-600">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

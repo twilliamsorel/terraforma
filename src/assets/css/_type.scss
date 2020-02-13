@@ -35,6 +35,32 @@ a {
   }
 }
 
+ul.checkmark {
+  font-family: 'aristotelica-extralight', arial, sans-serif;
+  font-size: $font-size-200;
+  line-height: 25px;
+  list-style: none;
+
+  @media screen and (min-width: $screen-sm) {
+    font-size: $font-size-300;
+  }
+
+  li {
+    margin-bottom: $spacing-600;
+
+    &:before {
+      content: "";
+      width: 25px;
+      height: 25px;
+      background: url('/assets/img/checkmark.png');
+      background-size: 100%;
+      display: inline-block;
+      position: absolute;
+      margin-left: -40px;
+    }
+  }
+}
+
 .text-white.dashed {
   border-bottom: 2px dashed white;
   display: inline-block;

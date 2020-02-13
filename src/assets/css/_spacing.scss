@@ -36,6 +36,10 @@
   @extend .padding-top-600;
   @extend .padding-bottom-600;
 }
+.padding-vertical-800 {
+  @extend .padding-top-800;
+  @extend .padding-bottom-800;
+}
 .padding-200 {
   @extend .padding-top-200;
   @extend .padding-bottom-200;
@@ -112,6 +116,13 @@
 .padding-top-600 {
   padding-top: $spacing-600;
 }
+.padding-top-800 {
+  padding-top: $spacing-800;
+}
+.padding-top-1000 {
+  padding-top: $spacing-1000;
+}
+
 .padding-bottom-200 {
   padding-bottom: $spacing-200;
 }
@@ -120,6 +131,9 @@
 }
 .padding-bottom-600 {
   padding-bottom: $spacing-600;
+}
+.padding-bottom-800 {
+  padding-bottom: $spacing-800;
 }
 .padding-left-200 {
   padding-left: $spacing-200;

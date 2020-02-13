@@ -11,6 +11,12 @@
     color: $black-100;
   }
 
+  &.small {
+    border-radius: 2px;
+    padding: $spacing-base $spacing-400 0;
+    font-size: $font-size-100;
+  }
+
   &.tab {
     width: 100%;
     color: $white-100;
@@ -19,6 +25,10 @@
     margin-bottom: $spacing-200;
     border-radius: 2px;
     padding: $spacing-200 $spacing-300 $spacing-base;
+
+    &:hover {
+      color: $black-100;
+    }
 
     &.green {
       background: $green-100;
