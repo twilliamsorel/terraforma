@@ -16,6 +16,7 @@
 
 // COMPONENTS
 @import "components/bio-box";
+@import "components/cta";
 
 // MOLECULES
 @import "components/molecules/circle-line";
@@ -70,4 +71,8 @@ img {
   opacity: .4;
   position: absolute;
   z-index: 0;
+}
+
+.slope.inverted {
+  transform: scaleX(-1);
 }
