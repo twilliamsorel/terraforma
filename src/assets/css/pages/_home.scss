@@ -11,6 +11,10 @@ body.home {
     left: -3px;
   }
 
+  .bg-white {
+    box-shadow: $box-shadow-basic;
+  }
+
   .section-title {
     text-align: center;
 
@@ -52,9 +56,17 @@ body.home {
 
   .creating-value {
     position: relative;
-    padding: 0 0 250px 0;
-    background: url('/assets/img/backgrounds/background-4.jpg') no-repeat center center fixed;
+    padding: 0 0 150px 0;
+    background: url('/assets/img/backgrounds/background-3.jpg') no-repeat center center fixed;
     background-size: cover;
+
+    @media screen and (min-width: $screen-sm) {
+      padding: 0 0 240px 0;
+    }
+
+    @media screen and (min-width: $screen-lg) {
+      padding: 0 0 320px 0;
+    }
 
     .section-title {
       h3 {
@@ -67,6 +79,48 @@ body.home {
 
       @media screen and (min-width: $screen-sm) {
         text-align: right;
+      }
+    }
+  }
+
+  .our-method {
+    position: relative;
+    padding: 0 0 100px 0;
+    background: url('/assets/img/backgrounds/background-4.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    .bg-white {
+      position: absolute;
+      right: 0;
+      top:10px;
+      height: 100%;
+      width: 100%;
+      z-index: 0;
+
+      @media screen and (min-width: $screen-sm) {
+        width: 62%;
+      }
+    }
+
+    .section-title {
+      h3 {
+        margin-bottom: $spacing-600;
+
+        @media screen and (min-width: $screen-sm) {
+          margin-bottom: $spacing-1000;
+        }
+      }
+
+      @media screen and (min-width: $screen-sm) {
+        text-align: left;
+      }
+    }
+
+    .btn-wrapper {
+      text-align: center;
+
+      @media screen and (min-width: $screen-sm) {
+        text-align: left;
       }
     }
   }

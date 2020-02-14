@@ -2,8 +2,15 @@
   color: white;
   background: $orange-100;
   border-bottom: $spacing-300 solid $green-100;
+  position: relative;
+  z-index: $z-index-subnav;
 
   h2 {
     margin-bottom: 0;
+  }
+
+  &.green {
+    background: $green-100;
+    border-bottom: $spacing-300 solid $blue-100;
   }
 }
