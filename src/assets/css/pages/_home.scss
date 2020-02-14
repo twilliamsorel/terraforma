@@ -4,6 +4,10 @@ body.home {
 
   @import 'home/hero';
 
+  section {
+    position: relative;
+  }
+
   .slope {
     position: absolute;
     bottom: -1px;
@@ -35,7 +39,6 @@ body.home {
   }
 
   .summary {
-    position: relative;
     margin-top: -50px;
     padding: 100px 0 140px;
     background: url('/assets/img/backgrounds/background-1.jpg') no-repeat center center fixed;
@@ -55,7 +58,6 @@ body.home {
   }
 
   .creating-value {
-    position: relative;
     padding: 0 0 150px 0;
     background: url('/assets/img/backgrounds/background-3.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -84,10 +86,13 @@ body.home {
   }
 
   .our-method {
-    position: relative;
     padding: 0 0 100px 0;
     background: url('/assets/img/backgrounds/background-4.jpg') no-repeat center center fixed;
     background-size: cover;
+
+    @media screen and (min-width: $screen-md) {
+      padding: 0 0 200px 0;
+    }
 
     .bg-white {
       position: absolute;
@@ -121,6 +126,43 @@ body.home {
 
       @media screen and (min-width: $screen-sm) {
         text-align: left;
+      }
+    }
+  }
+
+  .sustainability {
+    background: url('/assets/img/backgrounds/background-3.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    .bg-white {
+      margin-top: 150px;
+      padding-bottom: 55px;
+
+      @media screen and (min-width: $screen-sm) {
+        margin-top: 250px;
+        padding-bottom: 125px;
+      }
+    }
+
+    .btn {
+      margin-top: $spacing-200;
+
+      @media screen and (min-width: $screen-sm) {
+        margin-top: 0;
+      }
+    }
+
+    .section-title {
+      h3 {
+        margin-bottom: $spacing-600;
+
+        @media screen and (min-width: $screen-sm) {
+          margin-bottom: $spacing-1000;
+        }
+      }
+
+      @media screen and (min-width: $screen-sm) {
+        text-align: right;
       }
     }
   }

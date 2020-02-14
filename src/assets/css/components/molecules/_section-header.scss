@@ -13,4 +13,8 @@
     background: $green-100;
     border-bottom: $spacing-300 solid $blue-100;
   }
+  &.blue {
+    background: $blue-100;
+    border-bottom: $spacing-300 solid $green-100;
+  }
 }
