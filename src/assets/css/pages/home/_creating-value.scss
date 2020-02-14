@@ -1,0 +1,27 @@
+.creating-value {
+  padding: 0 0 150px 0;
+  background: url('/assets/img/backgrounds/background-3.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  @media screen and (min-width: $screen-sm) {
+    padding: 0 0 240px 0;
+  }
+
+  @media screen and (min-width: $screen-lg) {
+    padding: 0 0 320px 0;
+  }
+
+  .section-title {
+    h3 {
+      margin-bottom: $spacing-600;
+
+      @media screen and (min-width: $screen-sm) {
+        margin-bottom: $spacing-1000;
+      }
+    }
+
+    @media screen and (min-width: $screen-sm) {
+      text-align: right;
+    }
+  }
+}

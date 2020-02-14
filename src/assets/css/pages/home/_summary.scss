@@ -1,0 +1,18 @@
+.summary {
+  margin-top: -50px;
+  padding: 100px 0 140px;
+  background: url('/assets/img/backgrounds/background-1.jpg') no-repeat center center fixed;
+
+  @media screen and (min-width: $screen-sm) {
+    padding: 150px 0 190px;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    padding: 200px 0 240px;
+  }
+  
+  .black-panel {
+    padding: $spacing-1000 $spacing-600;
+    background: rgba(0, 0, 0, .5);
+  }
+}

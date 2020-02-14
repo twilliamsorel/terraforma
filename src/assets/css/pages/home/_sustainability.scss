@@ -1,0 +1,36 @@
+.sustainability {
+  background: url('/assets/img/backgrounds/background-3.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  .bg-white {
+    margin-top: 150px;
+    padding-bottom: 55px;
+
+    @media screen and (min-width: $screen-sm) {
+      margin-top: 250px;
+      padding-bottom: 125px;
+    }
+  }
+
+  .btn {
+    margin-top: $spacing-200;
+
+    @media screen and (min-width: $screen-sm) {
+      margin-top: 0;
+    }
+  }
+
+  .section-title {
+    h3 {
+      margin-bottom: $spacing-600;
+
+      @media screen and (min-width: $screen-sm) {
+        margin-bottom: $spacing-1000;
+      }
+    }
+
+    @media screen and (min-width: $screen-sm) {
+      text-align: right;
+    }
+  }
+}
