@@ -14,3 +14,29 @@
   window.addEventListener('scroll', fixNav);
   window.addEventListener('resize', fixNav);
 }());
+
+// MOBILE NAV 
+(function () {
+  var mobileNavContainer = document.querySelector('.mobile-nav-container');
+  var mobileNavButton = document.querySelector('[data-mobile-button]');
+
+  // open button
+  mobileNavButton.addEventListener('click', function () {
+    mobileNavContainer.style.display = 'flex';
+
+    setTimeout(function () {
+      mobileNavContainer.style.opacity = '1';
+    }, 10)
+  });
+
+  mobileNavContainer.addEventListener('click', function (e) {
+    if (e.target.getAttribute('data-close-mobile')) {
+      mobileNavContainer.style.opacity = '0';
+
+      setTimeout(function () {
+        mobileNavContainer.style.display = 'none';
+      }, 400);
+    }
+  },true);
+
+}());

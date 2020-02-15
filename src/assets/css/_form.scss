@@ -1,5 +1,5 @@
 form {
-  input[type="text"], textarea {
+  input[type="text"], textarea, input[type="email"] {
     width: 100%;
     border: 1px solid $gray-200;
     padding: $spacing-200 $spacing-300;

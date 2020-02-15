@@ -1,6 +1,8 @@
 ---
 layout: default
 title: contact
+scripts: 
+  - assets/js/form.js
 ---
 
 {% include nav.html %}
@@ -12,31 +14,31 @@ title: contact
     <div class="col-md-6 text-center">
       <h1 class="text-center text-white dashed margin-top-600">contact us</h1>
 
-      <form class="margin-top-600 margin-bottom-1200">
+      <form class="margin-top-600 margin-bottom-1200" action="https://hooks.zapier.com/hooks/catch/3631635/odgixjg/" data-async-thanks="We will reach out to you shortly.">
         <div class="row">
           <div class="col-md-6">
-            <input type="text" placeholder="first name*">
+            <input type="text" placeholder="first name*" name="first_name" required>
           </div>
           <div class="col-md-6">
-            <input type="text" placeholder="last name*" class="margin-top-400-responsive">
+            <input type="text" placeholder="last name*" name="last_name" required class="margin-top-400-responsive">
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <input type="text" placeholder="email*" class="margin-top-400">
+            <input type="email" placeholder="email*" name="email" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" data-error="please enter a valid email address" class="margin-top-400">
           </div>
           <div class="col-md-6">
-            <input type="text" placeholder="phone number" class="margin-top-400">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <input type="text" placeholder="company" class="margin-top-400">
+            <input type="text" placeholder="phone number" name="phone" class="margin-top-400">
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <textarea placeholder="comments" class="margin-top-400"></textarea>
+            <input type="text" placeholder="company" name="company" class="margin-top-400">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <textarea placeholder="comments" name="comments" class="margin-top-400"></textarea>
           </div>
         </div>
         <div class="row margin-top-600">
