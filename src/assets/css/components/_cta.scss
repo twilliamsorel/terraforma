@@ -1,7 +1,8 @@
 .component.cta {
   position: relative;
-  padding-bottom: 150px;
-  background: url('/assets/img/backgrounds/background-3.jpg') no-repeat center center fixed;
+  padding-bottom: 175px;
+  background: url('/assets/img/backgrounds/background-8.jpg') no-repeat fixed;
+  background-position: center center;
   background-size: cover;
 
   .bg-white {
@@ -9,6 +10,6 @@
   }
 
   @media screen and (min-width: $screen-sm) {
-    padding-bottom: 200px;
+    padding-bottom: 250px;
   }
 }
