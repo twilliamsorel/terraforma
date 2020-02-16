@@ -12,9 +12,11 @@
             {{ include.content }}
             
             <p>
-              <span class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-              </span>
+              <a href="{{ include.linkedin }}" target="_blank">
+                <span class="social-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </span>
+              </a>
               <a href="mailto: {{ include.email }}">
                 <span class="social-icon">
                   <i class="fas fa-envelope"></i>
