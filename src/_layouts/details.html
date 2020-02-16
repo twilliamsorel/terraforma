@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+<div class="details template">
+  <section class="main">
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-white">{{ page.header }}</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-4.svg"></object>
+
+    <div class="bg-white stretch"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <main>{{ content }}</main>
+        </div>
+      </div>
+    </div>
+    <object class="slope inverted" type="image/svg+xml" data="/assets/img/slopes/slope-right-2.svg"></object>
+    <object class="slope inverted" type="image/svg+xml" data="/assets/img/slopes/slope-left-2.svg"></object>
+  </section>
+</div>
+{% include components/cta.html %}

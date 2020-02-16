@@ -14,6 +14,9 @@
 @import "pages/about";
 @import "pages/home";
 
+// TEMPLATES
+@import "layouts/details";
+
 // COMPONENTS
 @import "components/bio-box";
 @import "components/cta";
@@ -24,6 +27,8 @@
 
 body {
   color: $black-100;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 :root {
@@ -71,6 +76,11 @@ img {
   opacity: .4;
   position: absolute;
   z-index: 0;
+}
+
+.slope {
+  width: calc(106% + 6px);
+  left: -3px;
 }
 
 .slope.inverted {
