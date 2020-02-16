@@ -1,4 +1,10 @@
 .molecule.circle-line {
+  &.white {
+    .circle {
+      border: 2px solid $white-100;
+    }
+  }
+
   .circle {
     width: $spacing-300;
     height: $spacing-300;

@@ -4,6 +4,9 @@
   background-size: cover;
 
   @media screen and (min-width: $screen-md) {
+    padding: 0 0 150px 0;
+  }
+  @media screen and (min-width: $screen-lg) {
     padding: 0 0 200px 0;
   }
 
