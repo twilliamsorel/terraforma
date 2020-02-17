@@ -33,6 +33,17 @@ function serialize (form) {
   return output;
 };
 
+function queryToObject (string) {
+  var outputs = string.substr(1).split('&');
+  var obj = {};
+
+  outputs.forEach(function (output) {
+    obj[output.split('=')[0]] = output.split('=')[1];
+  });
+
+  return obj;
+};
+
 // POST FORM TO URL
 function postAJAX (url, data, callback) {
   var xhr = new XMLHttpRequest();
@@ -64,6 +75,9 @@ function postAJAX (url, data, callback) {
       if (async) {
         container.innerHTML = "<h2 class='text-white margin-top-1000'>loading...</h2>";
       }
+
+      var dataObj = queryToObject(data);
+      if(dataObj.password.length > 0) { return };
 
       postAJAX(action, data, function (res) {
         if (JSON.parse(res).status === 'success') {
