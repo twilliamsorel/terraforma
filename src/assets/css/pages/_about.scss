@@ -1,9 +1,10 @@
 body.about {
-  background: url('/assets/img/backgrounds/background-9.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url('/assets/img/backgrounds/background-9.jpg') no-repeat center center; 
   background-size: cover;
+
+  @media screen and (min-width: $screen-sm) {
+    background-attachment: fixed;
+  }
 
   .img-container {
     width: 100%;

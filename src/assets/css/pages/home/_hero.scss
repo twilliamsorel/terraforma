@@ -2,17 +2,18 @@
   position: relative;
   text-align: center;
   height: 350px;
-  background: url('/assets/img/backgrounds/background-3.jpg') no-repeat fixed;
-  background-position: center 25%;
+  background: url('/assets/img/backgrounds/background-3.jpg') no-repeat;
+  background-position: center top;
   background-size: cover;
 
+  @media screen and (min-width: $screen-sm) {
+    background-attachment: fixed;
+  }
+
   .screen-white {
-    opacity: 0;
+    opacity: .35;
     transition: opacity 600ms;
 
-    @media screen and (min-width: $screen-xs) {
-      opacity: .35;
-    }
     @media screen and (min-width: $screen-md) {
       opacity: 0;
     }

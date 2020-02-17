@@ -1,7 +1,11 @@
 .our-method {
   padding: 0 0 100px 0;
-  background: url('/assets/img/backgrounds/background-9.jpg') no-repeat center center fixed;
+  background: url('/assets/img/backgrounds/background-9.jpg') no-repeat center center;
   background-size: cover;
+
+  @media screen and (min-width: $screen-sm) {
+    background-attachment: fixed;
+  }
 
   @media screen and (min-width: $screen-md) {
     padding: 0 0 150px 0;

@@ -1,6 +1,10 @@
 .sustainability {
-  background: url('/assets/img/backgrounds/background-6.jpg') no-repeat center center fixed;
+  background: url('/assets/img/backgrounds/background-6.jpg') no-repeat center center;
   background-size: cover;
+
+  @media screen and (min-width: $screen-sm) {
+    background-attachment: fixed;
+  }
 
   .bg-white {
     margin-top: 150px;

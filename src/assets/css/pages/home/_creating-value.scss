@@ -1,7 +1,11 @@
 .creating-value {
   padding: 0 0 175px 0;
-  background: url('/assets/img/backgrounds/background-11.jpg') no-repeat center center fixed;
+  background: url('/assets/img/backgrounds/background-11.jpg') no-repeat center center;
   background-size: cover;
+
+  @media screen and (min-width: $screen-sm) {
+    background-attachment: fixed;
+  }
 
   @media screen and (min-width: $screen-sm) {
     padding: 0 0 275px 0;
