@@ -1,6 +1,4 @@
 body.home {
-  @import 'home/hero';
-
   section {
     position: relative;
   }
@@ -35,6 +33,7 @@ body.home {
     position: absolute;
   }
 
+  @import 'home/hero';
   @import 'home/summary';
   @import 'home/creating-value';
   @import 'home/our-method';
