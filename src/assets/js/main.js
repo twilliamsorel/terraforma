@@ -26,7 +26,7 @@
 
     setTimeout(function () {
       mobileNavContainer.style.opacity = '1';
-    }, 10)
+    }, 100)
   });
 
   mobileNavContainer.addEventListener('click', function (e) {
