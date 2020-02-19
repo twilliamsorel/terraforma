@@ -4,19 +4,20 @@ title: home
 ---
 
 <section class="hero">
-  <div class="screen-white"></div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <img src="/assets/img/logo-original.svg" class="margin-top-800 margin-bottom-800">
-        <div class="scroll-section d-none d-sm-block">
-          <a href="#summary"><img class="scroll-icon" src="/assets/img/scroll-icon.png" title="scroll down for more"></a>
-          {% include components/molecules/circle-line.html %}
+        <img src="/assets/img/logo-original.svg" class="margin-top-800 margin-bottom-400">
+        <div class="d-none d-sm-block">
+          <a href="#summary"><i class="fas fa-chevron-down scroll-icon"></i></a>
         </div>
       </div>
       
-      <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-left-1.svg"></object>
-      <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-right-1.svg"></object>
+      <object class="slope large" type="image/svg+xml" data="/assets/img/slopes/slope-left-1.svg"></object>
+      <object class="slope large" type="image/svg+xml" data="/assets/img/slopes/slope-right-1.svg"></object>
+
+      <object class="slope small" type="image/svg+xml" data="/assets/img/slopes/slope-left-2.svg"></object>
+      <object class="slope small" type="image/svg+xml" data="/assets/img/slopes/slope-right-2.svg"></object>
     </div>
   </div>
 </section>
@@ -38,9 +39,6 @@ title: home
         <a href="#creating-value" class="btn tab">creating value</a>
         <a href="#our-method" class="btn tab green">our method</a>
         <a href="#sustainability" class="btn tab blue">sustainability</a>
-      </div>
-      <div class="d-md-none d-lg-block col-lg-1">
-        {% include components/molecules/circle-line.html classes="white" %}
       </div>
     </div>
   </div>

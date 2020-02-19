@@ -3,52 +3,54 @@
   text-align: center;
   height: 350px;
   background: url('/assets/img/backgrounds/background-3.jpg') no-repeat;
-  background-position: center top;
-  background-size: cover;
+  background-position: left 20%;
 
   @media screen and (min-width: $screen-sm) {
     background-attachment: fixed;
-  }
-
-  .screen-white {
-    opacity: .35;
-    transition: opacity 600ms;
-
-    @media screen and (min-width: $screen-md) {
-      opacity: 0;
-    }
   }
   
 
   img {
     max-width: 300px;
+
+    @media screen and (min-width: $screen-xs) {
+      max-width: 350px;
+    }
+    @media screen and (min-width: $screen-lg) {
+      max-width: 400px;
+    }
   }
 
-  .scroll-section {
-    @media screen and (min-width: $screen-md) {
-      position: absolute;
-      right: 0;
-      top: $spacing-600;
-    }
-
-    .scroll-icon {
-      border: 2px solid $black-100;
-      border-radius: 100%;
-      width: 80px;
-      padding: 10px;
-      margin-bottom: $spacing-300;
-    }
+  .scroll-icon {
+    font-size: $font-size-500;
+    padding: 5px;
+    margin-bottom: $spacing-300;
+    color: black;
+    opacity: .6;
   }
 
   @media screen and (min-width: $screen-xs) {
-    height: 100vh;
-    min-height: 500px;
-
-    img {
-      max-width: 350px;
-    }
+    height: calc(100vh - 136px);
+    min-height: 450px;
   }
-  @media screen and (min-width: $screen-md) {
-    text-align: left;
+
+  .slope {
+    &.large {
+      display: none;
+    }
+
+    &.small {
+      display: block;
+    }
+
+    @media screen and (min-height: 620px) {
+      &.large {
+        display: block;
+      }
+
+      &.small {
+        display: none;
+      }
+    }
   }
 }
