@@ -1,10 +1,4 @@
 .component.cta {
-  position: relative;
-  padding-bottom: 175px;
-  background: url('/assets/img/backgrounds/background-9.jpg') no-repeat;
-  background-position: center center;
-  background-size: cover;
-
   @media screen and (min-width: $screen-sm) {
     background-attachment: fixed;
   }
@@ -12,9 +6,5 @@
   .bg-white {
     padding: 0 20px;
     box-shadow: $box-shadow-basic;
-  }
-
-  @media screen and (min-width: $screen-sm) {
-    padding-bottom: 250px;
   }
 }
