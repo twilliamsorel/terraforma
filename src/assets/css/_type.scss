@@ -23,6 +23,10 @@ p {
   font-family: fira-sans, sans-serif;
   font-style: normal;
   font-weight: 200;
+
+  &.large {
+    font-size: 20px;
+  }
 }
 
 a {
@@ -33,6 +37,12 @@ a {
     color: inherit;
     text-decoration: none;
   }
+}
+
+date {
+  display: block;
+  font-weight: 200;
+  font-size: 20px;
 }
 
 ul.checkmark {

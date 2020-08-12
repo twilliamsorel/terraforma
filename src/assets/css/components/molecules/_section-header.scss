@@ -12,6 +12,10 @@
   &.green {
     background: $green-100;
     border-bottom: $spacing-300 solid $blue-100;
+
+    &.orange {
+      border-bottom: $spacing-300 solid $orange-100;
+    }
   }
   &.blue {
     background: $blue-100;

@@ -1,0 +1,23 @@
+.blog-preview {
+  margin: 50px 20px;
+
+  @media screen and (min-width: $screen-md) {
+    margin: 100px 0;
+  }
+
+  .blog-img {
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+  }
+  .body {
+    padding: 20px 0;
+
+    @media screen and (min-width: $screen-sm) {
+      padding: 0 50px;
+    }
+    @media screen and (min-width: $screen-md) {
+      padding: 0 100px;
+    }
+  }
+}

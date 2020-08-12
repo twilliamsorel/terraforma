@@ -13,6 +13,7 @@
 @import "pages/contact";
 @import "pages/about";
 @import "pages/home";
+@import "pages/blog/blog-overview";
 
 // TEMPLATES
 @import "layouts/details";
@@ -20,6 +21,7 @@
 // COMPONENTS
 @import "components/bio-box";
 @import "components/cta";
+@import "components/blog-preview";
 
 // MOLECULES
 @import "components/molecules/section-header";
