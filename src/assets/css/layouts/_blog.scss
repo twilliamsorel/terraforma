@@ -1,0 +1,149 @@
+section.header {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-top: -25px;
+
+  @media screen and (min-width: $screen-sm) {
+    height: 400px;
+    margin-top: 0px;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    height: 600px;
+    margin-top: 0px;
+  }
+}
+
+.bg-bar {
+  width: 100%;
+  height: 10px;
+  position: relative;
+  z-index: $z-index-subnav;
+
+  &.green {
+    background: $green-100;
+    margin-top: -1px;
+  }
+
+  &.orange {
+    background: $orange-100;
+  }
+}
+
+.blog-content {
+  padding-bottom: 100px;
+}
+
+.blog-entry-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    margin: 0 0 -8px 0;
+  }
+}
+
+.blog-entry-author {
+  font-size: $font-size-300;
+  margin-bottom: -5px;
+
+  @media screen and (min-width: $screen-lg) {
+    margin-bottom: 0;
+  }
+}
+
+.blog-entry-content p {
+  font-size: $font-size-200;
+}
+
+.sharing-wrapper {
+  position: relative;
+
+  .share-blog-icons {
+    text-align: right;
+    font-size: $font-size-500;
+    right: 0;
+    cursor: pointer;
+    position: absolute;
+
+    i {
+      margin-left: $spacing-base;
+    }
+  }
+}
+
+@keyframes slidein {
+  0% {
+    display: none;
+    opacity: 0;
+    margin-top: -5px;
+  }
+  50% {
+    display: block;
+    opacity: 1;
+    margin-top: 5px;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+    margin-top: 5px;
+  }
+}
+
+.link-copied-message {
+  text-align: center;
+  min-width: 100px;
+  right: 0;
+  font-size: 16px;
+  background: white;
+  z-index: $z-index-mobile-nav;
+  position: absolute;
+  display: none;
+  opacity: 0;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px $black-100;
+  animation-name: slidein;
+  animation-duration: 1600ms;
+  animation-direction: normal;
+  animation-fill-mode: none;
+
+  @media screen and (min-width: $screen-md) {
+    right: initial;
+  }
+}
+
+.CTA {
+  background: $green-100;
+  padding: 60px 0;
+  text-align: center;
+
+  h2 {
+    margin-top: 5px;
+  }
+
+  .flex-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: $spacing-400;
+  }
+
+  @media screen and (min-width: $screen-md) {
+    .flex-wrap {
+      text-align: initial;
+      flex-direction: row;
+      justify-content: space-between
+    }
+    .btn {
+      margin-top: 0px;
+    }
+  }
+}

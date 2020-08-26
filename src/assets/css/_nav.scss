@@ -1,5 +1,9 @@
 .nav-container {
-  height: $nav-height-full;
+  height: $nav-height-small;
+
+  @media screen and (min-width: $screen-sm) {
+    height: $nav-height-full;
+  }
 }
 
 nav.main {

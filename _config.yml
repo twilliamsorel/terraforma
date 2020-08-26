@@ -36,6 +36,11 @@ destination: _site
 sass:
   sass_dir: assets/css
 
+collections: 
+  blog: 
+    output: true
+    permalink: /:collection/:title
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

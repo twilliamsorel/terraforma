@@ -1,0 +1,64 @@
+---
+layout: default
+scripts: 
+  - /assets/js/blog.js
+---
+{% include nav.html %}
+
+<section class="header" style="background-image: url(/assets/img/blog-placeholder.jpg)">
+  <object class="slope small" type="image/svg+xml" data="/assets/img/slopes/slope-left-2.svg"></object>
+  <object class="slope small" type="image/svg+xml" data="/assets/img/slopes/slope-right-2.svg"></object>
+</section>
+<div class="bg-bar green"></div>
+<div class="bg-bar orange"></div>
+
+<section class="blog-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="blog-entry-header margin-top-1000 margin-bottom-600">
+          <h1 class="blog-title">{{page.title}}</h1>
+          <date class="d-none d-lg-block">{{ page.date | date: "%B %d, %Y" }}</date>
+        </div>
+
+        <div class="blog-entry-header margin-bottom-600">
+          <p class="blog-entry-author">By {{ page.author }}</p>
+          <date class="d-block d-lg-none">{{ page.date | date: "%B %d, %Y" }}</date>
+        </div>
+
+        <div class="row">
+          <div class="col-10 col-sm-11 col-lg-9">
+            <div class="blog-entry-content margin-bottom-1000">
+              {{ content }}
+            </div>
+          </div>
+          <div class="col-2  col-sm-1 col-lg-3">
+            <div class="sharing-wrapper">
+              <div class="share-blog-icons">
+                <a data-click-to-copy="true"><i class="fas fa-share-alt-square"></i></a><div class="link-copied-message">link copied!</div>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}&summary={{ page.summary | url_encode }}&source=Terraforma" target="_blank" title="share on LinkedIn"><i class="fab fa-linkedin"></i>
+                <a href="https://www.facebook.com/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}" target="_blank" title="Share on Facebook"><i class="fab fa-facebook-square"></i></a>
+                 <a href="https://twitter.com/intent/tweet?url={{ site.url | url_encode }}{{ page.url | url_encode }}&text={{ 'Check this out' | url_encode }}&hashtags={{ 'trevorstales,fiction,reading,books' | url_encode }}" target="_blank" title="Share on Twitter"><i class="fab fa-twitter-square"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <object class="slope small" type="image/svg+xml" data="/assets/img/slopes/slope-left-2.svg"></object>
+  <object class="slope small" type="image/svg+xml" data="/assets/img/slopes/slope-right-2.svg"></object>
+</section>
+<section class="CTA">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 offset-0 col-md-10 offset-md-1 flex-wrap">
+        <h2 class="fira-sans text-white">Start your soil journey today.</h2>
+        <div>
+          <a class="btn" href="/contact">contact us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

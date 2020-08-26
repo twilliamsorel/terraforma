@@ -8,18 +8,20 @@ robots: noindex, nofollow
 
 <section>
   <div class="blog-flexbox">
-    <div class="left-pane">
-      <div class="blog-hero-text">
-        <h2>blog title</h2>
-        <date class="margin-top-400 margin-bottom-600">December 24, 2020</date>
-        <p class="large">
-          This is a summary of a blog post. Click here to learn more about blog type stuff, and web design and development.
-        </p>
-        <a href="/" class="btn margin-top-400">read more</a>
+    {% for post in site.blog limit: 1 %}
+      <div class="left-pane">
+        <div class="blog-hero-text">
+          {% assign display_date = post.date | date: "%B %d, %Y" %}
+          <h2>{{ post.title }}</h2>
+          <date class="margin-top-400 margin-bottom-600">{{ display_date }}</date>
+          <p class="large">
+            {{ post.summary }}
+          </p>
+          <a href="{{ post.url }}" class="btn margin-top-400">read more</a>
+        </div>
       </div>
-    </div>
-    <div class="main-blog-image" style="background-image: url(/assets/img/blog-placeholder.jpg);">
-    </div>
+      <div class="main-blog-image" style="background-image: url({{ post.image }});"></div>
+    {% endfor %}
   </div>
 
   <object class="slope" type="image/svg+xml" data="/assets/img/slopes/slope-left-2.svg"></object>
@@ -28,6 +30,9 @@ robots: noindex, nofollow
 {% include components/molecules/section-header.html classes="green orange" title="&nbsp;" %}
 
 <section>
-  {% include components/blog-preview.html %}
-  {% include components/blog-preview.html %}
+  {% for post in site.blog offset: 1 %}
+    {% assign display_date = post.date | date: "%B %d, %Y" %}
+    {% include components/blog-preview.html title=post.title date=display_date link=post.url
+      summary=post.summary image=post.image %}
+  {% endfor %}
 </section>
