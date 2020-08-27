@@ -4,17 +4,14 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: src/_blog
+  label: Blog Posts
+  create: documents
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
-- type: directory
-  path: src/_blog
-  label: Blog
-  create: all
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
