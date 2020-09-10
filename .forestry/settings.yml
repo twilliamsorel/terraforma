@@ -9,9 +9,6 @@ sections:
   label: Blog Posts
   create: documents
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
 upload_dir: src/uploads
 public_path: "/uploads"
 front_matter_path: ''
