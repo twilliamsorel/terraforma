@@ -22,6 +22,7 @@ title: Terraforma
 description: >- # this means to ignore newlines until "baseurl:"
   Terraforma is an agriculture company specializing in custom microbial soil development.
 url: "https://terraformasoil.com" # the base hostname & protocol for your site, e.g. http://example.com
+image: /assets/logo-original.svg
 
 # Build settings
 markdown: kramdown

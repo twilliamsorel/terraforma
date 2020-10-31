@@ -1,7 +1,5 @@
-<meta property="og:url"                content="{{ site.url }}{{ page.url }}" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="{{ page.title }}" />
-<meta property="og:description"        content="{{ page.description | default: site.description }}" />
-{% if page.image %}
-  <meta property="og:image"            content="{{ page.image }}" />
-{% endif %}
+<meta prefix="og: http://ogp.me/ns#" property="og:url"                content="{{ site.url }}{{ page.url }}" />
+<meta prefix="og: http://ogp.me/ns#" property="og:type"               content="article" />
+<meta prefix="og: http://ogp.me/ns#" property="og:title"              content="{{ page.title }}" />
+<meta prefix="og: http://ogp.me/ns#" property="og:description"        content="{{ page.description | default: site.description }}" />
+<meta prefix="og: http://ogp.me/ns#" property="og:image"            content="{{ page.image | default: site.image}}" />
