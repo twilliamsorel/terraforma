@@ -17,11 +17,13 @@
                   <i class="fab fa-linkedin-in"></i>
                 </span>
               </a>
+              {% if include.email %}
               <a href="mailto: {{ include.email }}">
                 <span class="social-icon">
                   <i class="fas fa-envelope"></i>
                 </span>
               </a>
+              {% endif %}
             </p>
           </div>
         </div>
