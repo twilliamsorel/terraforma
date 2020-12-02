@@ -72,11 +72,19 @@ function postAJAX (url, data, callback) {
       var async = form.getAttribute('data-async-thanks');
       var container = form.parentElement;
 
+      var dataObj = queryToObject(data);
+
+      if (!dataObj['g-recaptcha-response']) {
+        document.querySelector('.g-recaptcha').firstChild.style.border = '2px solid red';
+        document.querySelector('.g-recaptcha').firstChild.style.height = '80px';
+        document.querySelector('.g-recaptcha').firstChild.style.width = '306px';
+        return
+      }
+
       if (async) {
         container.innerHTML = "<h2 class='text-white margin-top-1000'>loading...</h2>";
       }
 
-      var dataObj = queryToObject(data);
       if(dataObj.password.length > 0) { return };
 
       postAJAX(action, data, function (res) {
