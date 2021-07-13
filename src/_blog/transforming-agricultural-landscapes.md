@@ -6,7 +6,6 @@ summary: Role of Biological Functionality in Regenerative, sustainable, and conv
   agricultural systems.
 author: Cooper Scarbrough
 image: "/uploads/528fa7c0-5b54-489b-88d2-14059183b6c7.JPG"
-published: false
 
 ---
 It’s no secret -- the ‘conventional’ food production system is not something to admire. Farmers are being squeezed by increasing input costs, lower prices, and increasing environmental variability. It is a difficult place to be for any farmer, and the solutions to their problems seem to always be a new chemical, more fertilizer, and bigger tractors.
