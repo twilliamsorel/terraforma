@@ -1,6 +1,6 @@
 ---
 layout: blog
-date: 2021-07-13 16:09:01 +0000
+date: 2021-07-13T16:09:01.000+00:00
 title: Transforming Agricultural Landscapes
 summary: Role of Biological Functionality in Regenerative, sustainable, and conventional
   agricultural systems.
@@ -14,7 +14,7 @@ Here at Terraforma, we bring a different approach to agriculture’s challenges.
 
 Terraforma was founded on the mission to improve farmers profitability while making a positive environmental impact. Our motto is Sustainability through Profitability. It is not an easy mission, but it is absolutely possible – in fact, most would agree it is essential.
 
-Before we can go any further on discussing the solution to our agricultural predicament, we need to understand the mechanism that is the key to profitable agriculture; Soil’s Biological Functionality. 
+Before we can go any further on discussing the solution to our agricultural predicament, we need to understand the mechanism that is the key to profitable agriculture; Soil’s Biological Functionality.
 
 Soil’s Biological Functionality _is the soil’s natural ability to (1) Produce Nutrients for the plant, (2) Suppress Pest and Disease, and (3) Withstand Environmental Variability_. In essence, Increasing Biological Functionality will have a plethora of benefits which lead to increasing revenues while reducing input costs.
 
@@ -28,10 +28,10 @@ Now – ‘The How’. The way we see it there are two ways to improve soil heal
 
 2\. Implement Sustainable Management Practices (SMPs) that are beneficial to soil microbial communities as well as the physical and chemical characteristics of your soil.
 
-![](/uploads/image-2.png)
-
 But there are indefinite species of microorganisms – which do you reinstate? And there are countless sustainable management practices – which do you use?
 
+<div class="row">
+<div class="col-12 col-md-6">
 Terraforma has worked with the best and brightest to refine our Soil Health Analysis to provide actionable guidance based on a soils microbiome. The results inform Terraforma and the farmer:
 
 1\. Which Microorganism communities to cultivate and reinstate to tailor the soil to your crop.
@@ -39,6 +39,11 @@ Terraforma has worked with the best and brightest to refine our Soil Health Anal
 2\. Which Sustainable Management Practice(s) will be the most impactful to implement for your soil.
 
 Whether your objective is to transition to a reduced-input operation, increase output, or improve crop quality, it is imperative you know where to begin. Terrafroma highlights the optimal investments in your soil’s biological functionality, you need to invest in the strategies with the highest returns.
+</div>
+<div class="col-12 col-md-6">
+![](/uploads/image-2.png)
+</div>
+</div>
 
 After Soil Analyses, Terraforma provides the client:
 
