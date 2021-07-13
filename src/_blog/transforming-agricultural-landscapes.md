@@ -15,7 +15,7 @@ Here at Terraforma, we bring a different approach to agriculture’s challenges.
 
 Terraforma was founded on the mission to improve farmers profitability while making a positive environmental impact. Our motto is Sustainability through Profitability. It is not an easy mission, but it is absolutely possible – in fact, most would agree it is essential.
 
-Before we can go any further on discussing the solution to our agricultural predicament, we need to understand the mechanism that is the key to profitable agriculture; Soil’s Biological Functionality.
+Before we can go any further on discussing the solution to our agricultural predicament, we need to understand the mechanism that is the key to profitable agriculture; Soil’s Biological Functionality. 
 
 Soil’s Biological Functionality _is the soil’s natural ability to (1) Produce Nutrients for the plant, (2) Suppress Pest and Disease, and (3) Withstand Environmental Variability_. In essence, Increasing Biological Functionality will have a plethora of benefits which lead to increasing revenues while reducing input costs.
 
