@@ -32,3 +32,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- src/_blog/transforming-agricultural-landscapes.md
