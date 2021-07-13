@@ -5,7 +5,7 @@ title: Transforming Agricultural Landscapes
 summary: Role of Biological Functionality in Regenerative, sustainable, and conventional
   agricultural systems.
 author: Cooper Scarbrough
-image: ''
+image: "/uploads/528fa7c0-5b54-489b-88d2-14059183b6c7.JPG"
 published: false
 
 ---
