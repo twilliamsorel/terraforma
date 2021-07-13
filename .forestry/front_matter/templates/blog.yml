@@ -5,21 +5,30 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  config:
+    required: true
+  default: blog
 - type: text
   name: title
   label: title
+  config:
+    required: true
+    min: 2
 - type: text
   name: summary
   label: summary
+  config:
+    required: true
 - type: text
   name: author
   label: author
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
+  default: now
 - type: file
   name: image
   label: image
-- type: text
-  name: robots
-  label: robots
