@@ -19,6 +19,8 @@ Before we can go any further on discussing the solution to our agricultural pred
 
 Soil’s Biological Functionality _is the soil’s natural ability to (1) Produce Nutrients for the plant, (2) Suppress Pest and Disease, and (3) Withstand Environmental Variability_. In essence, Increasing Biological Functionality will have a plethora of benefits which lead to increasing revenues while reducing input costs.
 
+![](/uploads/image-1.PNG)
+
 So, to put it simply, ‘What We Do’ is work with the farmer to improve their soil’s Biological Functionality. In doing so, we can (1) reduce usage of Fertilizers, (2) reduce Pesticides and Fungicide applications, and (3) reduce Irrigation requirements and crop loss from environmental variability. Increasing Biological Functionality results in increasing crop quantity and quality has great impacts on the farmer’s bottom line.
 
 Now – ‘The How’. The way we see it there are two ways to improve soil health, and ultimately soil’s Biological Functionality.
@@ -26,6 +28,8 @@ Now – ‘The How’. The way we see it there are two ways to improve soil heal
 1\. Reinstate the productive microorganisms that are responsible for nutrient cycling, pest suppression, and environmental tolerance.
 
 2\. Implement Sustainable Management Practices (SMPs) that are beneficial to soil microbial communities as well as the physical and chemical characteristics of your soil.
+
+![](/uploads/image-2.png)
 
 But there are indefinite species of microorganisms – which do you reinstate? And there are countless sustainable management practices – which do you use?
 
@@ -45,6 +49,8 @@ After Soil Analyses, Terraforma provides the client:
 
 As you may expect, when you increase your soil’s biological functionality you will improve your gross margin through reduced inputs and increased outputs. Or as we say at Terraforma, you are creating “Sustainability through Profitability”.
 
-Our approach is unconventional -- It is dynamic, yet structured, and by necessity requires that we work closely with the farmer to develop a project strategy that best fits with their Operation, Objectives, and Resources.   
-   
- We invite you to reach out to learn more about how our approach transforms agricultural landscapes, and if increasing biological functionality is right for your soil.
+![](/uploads/image-3.PNG)
+
+Our approach is unconventional -- It is dynamic, yet structured, and by necessity requires that we work closely with the farmer to develop a project strategy that best fits with their Operation, Objectives, and Resources.
+
+We invite you to reach out to learn more about how our approach transforms agricultural landscapes, and if increasing biological functionality is right for your soil.
