@@ -1,0 +1,25 @@
+---
+label: Blog
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: summary
+  label: summary
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: robots
+  label: robots
