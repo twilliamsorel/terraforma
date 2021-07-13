@@ -2,7 +2,7 @@
 layout: blog
 date: 2021-07-13T16:09:01.000+00:00
 title: Transforming Agricultural Landscapes
-summary: Role of Biological Functionality in Regenerative, sustainable, and conventional
+summary: Role of Biological Functionality in regenerative, sustainable, and conventional
   agricultural systems.
 author: Cooper Scarbrough
 image: "/uploads/528fa7c0-5b54-489b-88d2-14059183b6c7.JPG"
