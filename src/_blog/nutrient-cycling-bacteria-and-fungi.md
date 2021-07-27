@@ -6,7 +6,6 @@ summary: 'How plants interact with Bacteria and Fungi to cycle nutrients from th
   mineral and organic matter fractions of soil. '
 author: Miles Sorel
 image: "/uploads/brad-huchteman-o93thgx6dbw-unsplash.jpg"
-published: false
 
 ---
 A three hundred-foot redwood growing from soil that was once molten rock is a mystical process. To understand the magic behind thriving forests and to harness that productivity for agricultural production one must understand the microbes that make up soil.
