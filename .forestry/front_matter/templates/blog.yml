@@ -33,4 +33,5 @@ fields:
   name: image
   label: image
 pages:
+- src/_blog/nutrient-cycling-bacteria-and-fungi.md
 - src/_blog/transforming-agricultural-landscapes.md
