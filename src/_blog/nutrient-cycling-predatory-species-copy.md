@@ -5,7 +5,7 @@ title: Nutrient cycling - Predatory Species
 summary: How nutrients are cycled through the predation of bacteria and fungi. Protozoa
   (amoeba, flagellates, ciliates) and Nematodes are key pieces to a healthy soil.
 author: Miles Sorel
-image: ''
+image: '/uploads/528fa7c0-5b54-489b-88d2-14059183b6c7.jpg'
 
 ---
 Everyone knows the anecdote “the lion is the king of the jungle”; he is powerful and fierce, fearing no animal on the savannah. The king of the jungle in this case rests at the top of a complex food chain, through his predatory instincts (and the keen hunting skills of his pride) he keeps other animal populations in check. While this is an oversimplification of a terrestrial food web, by looking at the interplay of macroecosystems useful conceptualizations of microecosystems and the soil food web can be formed.
