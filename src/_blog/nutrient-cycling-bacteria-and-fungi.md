@@ -4,7 +4,7 @@ date: 2021-07-27 15:44:57 +0000
 title: Nutrient cycling - Bacteria and Fungi
 summary: 'How plants interact with Bacteria and Fungi to cycle nutrients from the
   mineral and organic matter fractions of soil. '
-author: ''
+author: Miles Sorel
 image: "/uploads/brad-huchteman-o93thgx6dbw-unsplash.jpg"
 
 ---
