@@ -5,7 +5,7 @@ title: Five Ways to Improve Soil Productivity
 summary: 5 practices concepts and practices that can help to improve the productivity
   of your soil. The focus of this blog is on soil biology and soil microbiology, with
   a focus on the benefits of sustainable practice together with the soil mirobiome.
-author: ''
+author: Cooper Scarbrough
 image: "/uploads/pexels-anna-shvets-5231143.jpg"
 
 ---
