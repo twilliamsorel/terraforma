@@ -7,7 +7,6 @@ summary: 5 practices concepts and practices that can help to improve the product
   a focus on the benefits of sustainable practice together with the soil mirobiome.
 author: ''
 image: "/uploads/pexels-anna-shvets-5231143.jpg"
-published: false
 
 ---
 A plant is quite simple in theory – it requires the sunlight, water, and nutrients. If sufficient amounts of the essentials are provided, the plant will flourish.
