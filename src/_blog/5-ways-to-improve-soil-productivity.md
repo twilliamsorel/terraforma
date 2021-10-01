@@ -20,7 +20,7 @@ While Soil Health and Soil Productivity are not synonymous, they are without dou
 
 In this case, we consider Soil’s productivity as the _ability for soil to provide access to water and nutrients_. Below are 5 ways to improve your soil’s productivity that are founded in an understanding of the interworking’s of soils chemical, physical, and biological components.
 
-1) Improve soil structure
+1. Improve soil structure
 
 The Physical attributes of soil are very important and play a large role in soil’s productivity. Sand, Silt, and Clay percentages are in most cases uncontrollable – meaning what you have is what you’ve got. However, there are methods for improving and maintaining the structure of your soil leading to increased water infiltration, water holding capacity, and aerobic conditions near the root zone. This encourages large root networks that aren’t confined by compaction layers, and therefore increases accessibility to water and nutrients within the soil’s profile.
 
@@ -28,7 +28,7 @@ The most impactful sustainable management practices you can implement to improve
 
 (For more information on Improving the physical component of Soil, click here)
 
-2) Plan for Crop Deficiencies
+2. Plan for Crop Deficiencies
 
 There is a theory in agronomy called ‘Liebig’s law of the minimum’. It states that “A the growth of a plant is dictated not by the total resources available, but by the scarcest resource.” While this theory may over-simplify the soil-plant interaction, it is an important concept to grasp when thinking about soil productivity.
 
@@ -38,7 +38,7 @@ To improve the productivity of your soil, you need to be prepared to mitigate wh
 
 Fortunately, when the soil has adequate microbial Biomass, Activity, and Diversity a plant can orchestrate nutrient recruitment through a process called nutrient cycling. Together, the factors that enhance nutrient cycling make up the biological functionality of the soil.
 
-3) Increase the Microbial Biomass of the Soil
+3. Increase the Microbial Biomass of the Soil
 
 Microbial biomass makes up a highly concentrated source of nutrients within the soil. You can consider the biomass as a nutrient reserve that is released through the process of predation, the best part is that the nutrients sequestered through biomass are often 0 cost to the farmer!
 
@@ -48,7 +48,7 @@ Improving soil biomass is primarily achieved by creating a habitat conducive to 
 
 It is important that the habitat provided should best match the successional level of the crop for the greatest impact. Additionally, the increased microbial biomass will aid in providing soil structure through fungal hyphae networks that bind soil particulate together and tunneling by larger organisms that sit higher in the food chain. The effects on nutrient and water availability lead to improved soil productivity, plant resiliency, and nutrient recruitment through plant/microbe interactions.
 
-4) Manage the Microbial Activity of the Soil
+4. Manage the Microbial Activity of the Soil
 
 Nutrient cycling takes place if, and only if, microorganisms are active. Normally only a fraction of the biomass in the soil will be active at a given time, to get the most from your soil the biological activity needs to be optimized.
 
@@ -56,7 +56,7 @@ This doesn’t mean that 100% biomass activity is optimal – there is a balance
 
 Understanding what stage the crop is in (vegetative, budding, fruiting, etc), and then managing activity with microbial stimulants is the best way to facilitate the highest rates of nutrient cycling without sacrificing future yield.
 
-5) Elevate the Microbial Diversity in the Soil
+5. Elevate the Microbial Diversity in the Soil
 
 It may be obvious, but different microorganisms have different functions and thrive in different conditions. For example, a bacterium may solubilize potassium at a pH of 6.7, but become dormant at a pH of 7.1. For this reason, it is important to have a diverse community of microorganisms to be sure that nutrient cycling can occur at varying conditions (humidity, temperature, oxygen levels, pH, and the various exudates provided by the plant).
 
