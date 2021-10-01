@@ -28,6 +28,8 @@ The most impactful sustainable management practices you can implement to improve
 
 (For more information on Improving the physical component of Soil, click here)
 
+<br>
+
 2 - Plan for Crop Deficiencies
 
 There is a theory in agronomy called ‘Liebig’s law of the minimum’. It states that “A the growth of a plant is dictated not by the total resources available, but by the scarcest resource.” While this theory may over-simplify the soil-plant interaction, it is an important concept to grasp when thinking about soil productivity.
